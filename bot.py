@@ -8,4 +8,4 @@ beerbot = telepot.Bot(token)
 # beerbot.sendMessage(137199697, "Hello")
 
 # beerbot.setWebhook("https://5sfvlwn0sb.execute-api.us-west-2.amazonaws.com/v0/beerbot")
-print(beerbot.getWebhookInfo())
+# print(beerbot.getWebhookInfo())

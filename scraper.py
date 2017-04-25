@@ -35,14 +35,14 @@ def get_quant(html):
     return shop_list
 
 def main():
-    url = "https://morepiva.ua/kyiv/pivo"
-    url2 = "https://morepiva.ua/kyiv/pivo/pivo-kronenburg-blansh.html"
-    # links_all = get_links(get_html(url))
-    quants = get_quant(get_html(url2))
-    # for links in links_all:
-    #     print(links)
-    for quant in quants:
-        print(quant)
+    url = "https://morepiva.ua/kyiv/pivo/?PAGEN_1=2"
+    # url2 = "https://morepiva.ua/kyiv/pivo/pivo-kronenburg-blansh.html"
+    links_all = get_links(get_html(url))
+    # quants = get_quant(get_html(url2))
+    for links in links_all:
+        print(links)
+    # for quant in quants:
+    #     print(quant)
 
 if __name__ == "__main__":
     main()
